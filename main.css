@@ -1,0 +1,41 @@
+body{
+    background:lightblue;
+}
+article .image{
+    background-size: cover;
+    object-fit: cover;
+
+}
+.roboto {
+    font-family: "Roboto", sans-serif;;
+}
+.h-300{
+    height: 300px;
+}
+.w-400{
+    width: 400px;
+}
+.w-50px{
+ width: 50px;
+}
+.h-20px{
+    height: 20px;
+}
+button{
+    height: 40px;
+    width: 160px;
+    transition: transform 0.3s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.fs-7{
+    font-size: .9rem !important;
+}
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 2px !important;
+    border-radius: 100%;
+    background-color: #fb605b !important;
+}
